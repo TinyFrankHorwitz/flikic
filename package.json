@@ -1,0 +1,22 @@
+{
+  "name": "mini-game-feed",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/api", "packages/contracts", "tools/game-packager"],
+  "scripts": {
+    "dev:api": "npm run dev --workspace @mini-game-feed/api",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.2"
+  }
+}

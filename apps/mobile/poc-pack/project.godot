@@ -1,0 +1,11 @@
+; Separate tiny project used to export the runtime-loading proof PCK.
+config_version=5
+
+[application]
+
+config/name="Runtime PCK Test Content"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"

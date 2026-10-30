@@ -1,0 +1,8 @@
+{
+  "name": "@mini-game-feed/game-packager",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "typecheck": "tsc --noEmit -p tsconfig.json" },
+  "dependencies": { "@mini-game-feed/contracts": "0.1.0" }
+}
